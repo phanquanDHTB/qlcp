@@ -1,0 +1,96 @@
+.upload-content {
+    margin: 24px 0px;
+    width: 100%;
+    :deep(.ant-upload-drag:hover) {
+        border-color: #ed1b2f;
+    }
+
+    .anticon {
+        color: #ed1b2f !important;
+    }
+}
+
+.pd_left{
+    padding: 10;
+}
+
+.excel_table {
+    overflow: auto;
+    height: 40vh;
+    border: 1px solid #f0f0f0;
+
+    .table_title {
+        display: flex;
+        position: sticky;
+        top: 0px;
+        background: #fafafa;
+        z-index: 1;
+
+        p {
+            width: 240px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px;
+            padding: 24px 0px;
+            font-size: 16px;
+            font-weight: 600;
+            border-right: 1px solid #f0f0f0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+    }
+
+    .table_content {
+        display: flex;
+
+        .column_detail {
+            width: 240px;
+            border-bottom: 1px solid #f0f0f0;
+            border-right: 1px solid #f0f0f0;
+            padding: 8px;
+
+            .row_error {
+                color: red;
+            }
+        }
+    }
+
+    .table_content:hover {
+        background: #b0e0e6;
+    }
+
+    .error_column {
+        position: sticky;
+        left: 0px;
+        background: white;
+    }
+
+    .error_title {
+        position: sticky;
+        left: 0px;
+        background: #fafafa;
+    }
+
+    .text-left {
+        text-align: left;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+}
+
+.complete {
+    margin: 24px 0px;
+    color: red;
+    text-align: center;
+
+    .anticon {
+        font-size: 40px;
+    }
+}
+

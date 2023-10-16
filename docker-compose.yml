@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  app:
+    build: .
+    container_name: QLCP
+    ports:
+      - "5998:8000"
+    restart: unless-stopped
+    volumes:
+      - ./qlcp-admin:/app/qlcp-admin

@@ -1,0 +1,32 @@
+.border_route {
+    border-bottom: solid 1px rgb(191, 190, 190);
+    padding: 4%;
+    padding-bottom: 0px;
+    margin-top: 2%;
+    border-radius: 2%;
+    transition: 0.5s;
+
+}
+
+.border_plan_route_list {
+    border: solid 1px rgb(191, 190, 190);
+    border-radius: 1%;
+    height: 90vh;
+    overflow-y: scroll;
+}
+:hover.border_route{
+    background-color: rgb(247, 55, 55);
+    .row_plan_route{
+        color: white;
+    }
+    
+}
+.row_plan_route{
+    /* margin-top: 8px; */
+    .col_plan_route{
+        text-align: end;
+    }
+}
+.font_weight_boil{
+    font-weight: bold !important;
+}

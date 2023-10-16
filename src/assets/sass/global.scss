@@ -1,0 +1,115 @@
+.ant-btn-primary {
+  background-color: #ed1b2f;
+  border-color: #ed1b2f;
+}
+
+.view-control {
+  background-color: #fff !important;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  padding: 6px 0;
+  position: relative;
+  text-overflow: ellipsis;
+  width: 100%;
+  cursor: default;
+  pointer-events: auto;
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.dialog-class .ant-modal-body {}
+
+.ant-form-item-label {
+  text-align: left;
+}
+
+.ant-modal-body {
+  padding: 8px 16px;
+}
+
+.ant-form {
+  :deep(label) {
+    font-weight: bold !important;
+    color: black !important;
+  }
+
+  :deep(.ant-form-item-control-wrapper) {
+    // border-bottom: 1px solid silver;
+
+    .ant-form-item-control {
+      line-height: 40px;
+    }
+  }
+}
+
+
+.base-page-header {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, .85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum";
+  position: relative;
+  padding: 16px 24px;
+
+  &__group-header {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    h1 {
+      margin: 0;
+    }
+  }
+}
+
+:where(.css-dev-only-do-not-override-ed5zg0).ant-btn-primary:not(:disabled):hover {
+  color: #fff;
+  background-color: #ed1b2f;
+}
+
+.active-scroll {
+  cursor: grabbing;
+}
+
+.ant-table-body {
+
+  //height: 100vh;
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background: #C1C1C1;
+    border-radius: 12px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #FFFFFF;
+    border-radius: 12px;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  .ant-table-tbody {
+    font-size: 14px;
+  }
+}
+
+.ant-checkbox-group {
+  padding: 5px 10px;
+  display: block;
+}
+
+.ant-checkbox-wrapper {
+  padding: 3px 0;
+  display: flex;
+}

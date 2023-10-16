@@ -1,0 +1,354 @@
+.infor-wrap {
+  margin-top: 20px;
+
+  .ant-row {
+    margin: 7px 0;
+    align-items: center;
+  }
+
+  :where(.css-dev-only-do-not-override-ed5zg0).ant-form-item {
+    margin: 0;
+  }
+}
+
+.ant-steps-item-title {
+  font-weight: 700;
+}
+
+.ant-modal,
+.ant-modal-content {
+  border-radius: 0 !important;
+}
+
+.ant-collapse {
+  border-radius: 0;
+}
+
+.ant-collapse-content-box {
+  border-radius: 0 !important;
+}
+
+:where(.css-dev-only-do-not-override-ed5zg0).ant-collapse>.ant-collapse-item:last-child>.ant-collapse-header {
+  border-radius: 0;
+}
+
+.modal-scroll {
+  height: calc(100vh - 150px);
+  overflow-y: auto;
+  padding: 0 10px;
+  overflow-x: hidden;
+}
+
+.modal-scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.modal-scroll::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+
+.modal-scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #b2b2b2;
+}
+
+.route-infor {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+
+  .confirm-wrap {
+    border: none !important
+  }
+
+  .left-wrap {
+    padding: 10px 10px;
+
+    .search-wrap {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+
+      .ant-btn {
+        border-radius: 0;
+      }
+
+      :where(.css-dev-only-do-not-override-ed5zg0).ant-input-search>.ant-input-group>.ant-input-group-addon:last-child .ant-input-search-button {
+        border-radius: 0;
+      }
+
+      .search-wrap {
+        width: 250px !important;
+      }
+
+      .ant-input-wrapper {
+        width: 85%;
+      }
+    }
+  }
+
+  .form-route {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+
+    h3 {
+      text-align: center;
+    }
+  }
+
+  .confirm-plan-space {
+    display: flex;
+    height: 64px;
+
+    &__label-left {
+      width: 162px;
+    }
+  }
+
+  .confirm-plan-label-tbl {
+    padding: 10px 0;
+    font-size: 1.17em;
+    font-weight: bold;
+  }
+
+  .confirm-plan-table {
+    margin-top: 10px;
+  }
+}
+
+.route-wrap {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border-bottom: 1px solid #ccc;
+
+  &:hover {
+    background-color: #ed1b2f;
+    color: white;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+}
+
+.route-select {
+  background-color: #ed1b2f;
+  color: white;
+}
+
+.form-invoices {
+  .btn-invoices {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+.btn-uploadXML {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.search-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .ant-btn {
+    border-radius: 0;
+  }
+
+  :where(.css-dev-only-do-not-override-ed5zg0).ant-input-search>.ant-input-group>.ant-input-group-addon:last-child .ant-input-search-button {
+    border-radius: 0;
+  }
+
+  .search-wrap {
+    width: 250px !important;
+  }
+
+  .ant-input-wrapper {
+    width: 85%;
+  }
+}
+
+.route-wrap {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border-bottom: 1px solid #ccc;
+
+  &:hover {
+    background-color: #ed1b2f;
+    color: white;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+}
+
+.route-select {
+  background-color: #ed1b2f;
+  color: white;
+}
+
+.form-route {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+
+  h3 {
+    text-align: center;
+  }
+}
+
+.confirm-plan-space {
+  display: flex;
+  height: 64px;
+
+  &__label-left {
+    width: 162px;
+  }
+}
+
+.confirm-plan-label-tbl {
+  padding: 10px 0;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.confirm-plan-table {
+  margin-top: 10px;
+}
+
+.form-invoices {
+  .btn-invoices {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+.btn-uploadXML {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.form-btnDeleteInvoices {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.item_chose {
+  background-color: #ed1b2f;
+  color: white;
+}
+
+.confirm-infor {
+  .ant-checkbox-wrapper {
+    display: inline-flex;
+  }
+}
+
+.route-selected {
+  background-color: #ed1b2f;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.route-not-selected {
+  background-color: white;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-top: 1px solid gray;
+
+  &:hover {
+    background-color: #ed1b2f;
+    color: white;
+  }
+}
+
+.advance-col {
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+.ant-input-affix-wrapper {
+  border-radius: 0;
+}
+
+.card-border {
+  border: none !important;
+}
+
+.ant-btn-default {
+  border-color: #d9d9d9;
+}
+
+.scrollbar {
+  height: 70vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.scrollbarInvoices {
+  height: 80vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.ant-tabs-nav-scroll {
+  display: flex;
+  justify-content: center;
+}
+
+.scrollbar-content {
+  width: calc(100% - 5px);
+  /* Adjust for scrollbar width */
+}
+
+.scrollbarInvoices::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scrollbarInvoices::-webkit-scrollbar-track {
+  background-color: #F5F5F5;
+}
+
+
+.scrollbar::-webkit-scrollbar-track {
+  background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #7a7979;
+  border-radius: 5px;
+}
+
+.scrollbarInvoices::-webkit-scrollbar-thumb {
+  background-color: #7a7979;
+  border-radius: 5px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #7a7979;
+}
+
+.wrap-table-data {
+  width: 100%;
+}

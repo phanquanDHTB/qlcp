@@ -1,0 +1,28 @@
+const PlanRoute = {
+  name: "",
+  attribute: {
+    code: "Mã lộ trình",
+    name: "",
+    plan_id: "",
+    is_from_internal: "Nội bộ",
+    is_to_internal: "Nội bộ",
+    from_department_id: "Đơn vị đi",
+    to_department_id: "Đơn vị đến",
+    from_country_id: "Quốc gia đi",
+    to_country_id: "Quốc gia đến",
+    from_province_id: "Thành phố đi",
+    to_province_id: "Thành phố đến",
+    from_district_id: "Quận đi",
+    to_district_id: "Quận đến",
+    from_address: "Phố đi",
+    to_address: "Phố đến",
+    start_time: "Ngày bắt đầu",
+    end_time: "Ngày kết thúc",
+    vehicle: "Phương tiện",
+    distance: "Khoảng cách",
+    is_over_night: "Qua đêm",
+    from_department_name: "Tên đơn vị đi",
+    to_department_name: "Tên đơn vị đến",
+  },
+};
+export default PlanRoute;

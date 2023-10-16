@@ -1,0 +1,14 @@
+.confirm-plan-space{
+  display: flex;
+  height: 64px;
+  &__label-left{
+    width: 162px;
+  }
+}
+.confirm-plan-label-tbl{
+  font-size: 1.17em;
+  font-weight: 500;
+}
+.confirm-plan-table{
+  padding: 20px 0;
+}

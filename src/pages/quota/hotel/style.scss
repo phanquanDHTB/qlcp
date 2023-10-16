@@ -1,0 +1,16 @@
+.form-wrap {
+    margin-top: 20px;
+
+    .ant-row {
+        margin: 7px 0;
+        align-items: center;
+    }
+
+    :where(.css-dev-only-do-not-override-ed5zg0).ant-form-item {
+        margin: 0;
+    }
+}
+
+.row_detail_pd{
+    padding-left: 15;
+}
